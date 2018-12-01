@@ -1,10 +1,12 @@
 import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
-import Tab1 from '../screens/Tab1';
-import Tab2 from '../screens/Tab2';
+import ReceiveTab from '../screens/ReceiveTab';
+import GiveTab from '../screens/GiveTab';
+import ProfileTab from '../screens/ProfileTab';
 
 const TabNavigator = createBottomTabNavigator({
-  Tab1: { screen: Tab1 },
-  Tab2: { screen: Tab2 },
+  Receive: { screen: ReceiveTab },
+  Give: { screen: GiveTab },
+  Profile: { screen: ProfileTab },
 });
 
 export default createAppContainer(TabNavigator);
