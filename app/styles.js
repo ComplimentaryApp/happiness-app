@@ -1,4 +1,3 @@
-import { Platform } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 EStyleSheet.build({
@@ -13,8 +12,4 @@ EStyleSheet.build({
   // $darkText: '#343434',
 });
 
-export default EStyleSheet.create({
-  androidSafeArea: {
-    paddingTop: Platform.OS === 'android' ? 25 : 0,
-  },
-});
+export default EStyleSheet.create({});
