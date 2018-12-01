@@ -8,7 +8,7 @@ export default class ReceiveTab extends Component {
       <ScreenView>
         {/* <ScrollView style={{ padding: 20 }}> */}
         <Text style={{ fontSize: 27 }}>
-          Welcome to hAPPiness! This is tab 2
+          Welcome to hAPPiness! This is the receive tab
         </Text>
         {/* </ScrollView> */}
       </ScreenView>
