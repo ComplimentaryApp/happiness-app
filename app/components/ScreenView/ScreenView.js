@@ -5,7 +5,11 @@ import PropTypes from 'prop-types';
 
 export default class ScreenView extends Component {
   static propTypes = {
-    style: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+    style: PropTypes.object, // eslint-disable-line react/forbid-prop-types
+  };
+
+  static defaultProps = {
+    style: {},
   };
 
   render() {
