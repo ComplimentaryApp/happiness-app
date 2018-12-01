@@ -9,7 +9,7 @@ Firstly, a couple of tutorials:
 
 Cloning: for reasons unbeknownst to me, the project doesn't work if you have a space in the folder path. This took me forty minutes to fix, please don't repeat my pain!
 
-First of all, React runs on Node.js, so install node from your package manager. On Mac: `brew install node`. Linux: `<please complete>`, Windows: `<not a clue>`.
+First of all, React runs on Node.js, so install node from your package manager. On Mac: `brew install node`. Debian/Ubuntu: [https://nodejs.org/en/download/package-manager/](See here).
 
 Now, with Node we want to install `yarn`. I also installed `create-react-native-app`, but I don't think this is necessary if the app has already been created. You'll also need `expo-cli`, to run the project. `npm install -g yarn expo-cli`.
 
