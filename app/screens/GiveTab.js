@@ -8,7 +8,7 @@ export default class GiveTab extends Component {
       <ScreenView>
         {/* <ScrollView style={{ padding: 20 }}> */}
         <Text style={{ fontSize: 27 }}>
-          Welcome to hAPPiness! This is tab 2
+          Welcome to hAPPiness! This is the give tab
         </Text>
         {/* </ScrollView> */}
       </ScreenView>
