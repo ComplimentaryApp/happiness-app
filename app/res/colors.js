@@ -1,3 +1,9 @@
+// to import colors use:
+// import colors from '<<path>>/colors';
+//   path is: ../ -> go out of current folder
+//            ./name -> go into folder name (only have the . in front if the entry is the first entry in the path)
+// colors can be used by colors.mainBlue
+
 export default colors = {
   //not the original ones, have to be adjusted
   mainBlue: '#6FB7E2',

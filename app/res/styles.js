@@ -1,3 +1,9 @@
+// to import styles use:
+// import styles from '<<path>>/styles';
+//   path is: ../ -> go out of current folder
+//            ./name -> go into folder name (only have the . in front if the entry is the first entry in the path)
+// can be used by styles.exampleStyle
+
 import { StyleSheet } from 'react-native';
 import colors from './colors';
 
